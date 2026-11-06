@@ -1,0 +1,17 @@
+{
+  "name": "campus-crew",
+  "version": "1.0.0",
+  "description": "Campus Crew - University Campus Event & Club Management Platform",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "prisma:push": "cd backend && npm run prisma:push",
+    "prisma:seed": "cd backend && npm run prisma:seed",
+    "test": "cd backend && npm test",
+    "build": "cd frontend && npm run build"
+  }
+}
